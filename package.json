@@ -291,6 +291,11 @@
                 "description": "Use non-stop mode for controlling multiple threads. (defaults to false)",
                 "default": false
               },
+              "gdbIgnoreRunning": {
+                "type": "boolean",
+                "description": "Ignore if target is running for any accesses. (defaults to false)",
+                "default": false
+              },
               "verbose": {
                 "type": "boolean",
                 "description": "Produce verbose log output",
@@ -540,6 +545,11 @@
               "gdbNonStop": {
                 "type": "boolean",
                 "description": "Use non-stop mode for controlling multiple threads. (defaults to false)",
+                "default": false
+              },
+              "gdbIgnoreRunning": {
+                "type": "boolean",
+                "description": "Ignore if target is running for any accesses. (defaults to false)",
                 "default": false
               },
               "verbose": {
