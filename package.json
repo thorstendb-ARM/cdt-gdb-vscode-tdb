@@ -328,6 +328,14 @@
                 },
                 "default": []
               },
+              "componentViewer": {
+                "type": "array",
+                "description": "List of Component Viewer (SVCD) files.",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
               "imageAndSymbols": {
                 "type": "object",
                 "default": {},
